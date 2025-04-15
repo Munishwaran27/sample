@@ -21,13 +21,13 @@
 // }
 // export default App;
 import React from 'react'
-import UseStateExample from './UseState/UseStateExample'
-import Counter from './UseState/Counter/UseState';
-
+// import UseStateExample from './UseState/UseStateExample'
+import Counter from './Counter/UseState';
+import './Counter/counter.css';
 function App(){
   return (
     <div>
-    <UseStateExample/>
+    {/* <UseStateExample/> */}
     <Counter/>
     </div>
   )
